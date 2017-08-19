@@ -1,0 +1,34 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"target": "es5",
+		"lib": ["es6", "dom"],
+		"alwaysStrict": true,
+		"noImplicitAny": true,
+		"noImplicitReturns": true,
+		"noImplicitThis": true,
+		"noFallthroughCasesInSwitch": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"noEmitOnError": true,
+		"newLine": "LF",
+		"forceConsistentCasingInFileNames": true,
+		"removeComments": true,
+		"declaration": false,
+		"sourceMap": true,
+		"importHelpers": true,
+		"jsx": "react",
+		"jsxFactory": "h",
+		"outDir": "./dist/public/scripts",
+		"types": [
+			"node"
+		],
+		"typeRoots": [
+			"node_modules/@types"
+		]
+	},
+	"files": [
+		"./src/client/index.tsx"
+	]
+}
